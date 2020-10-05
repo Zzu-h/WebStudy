@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Administor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="admin.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    /*var jbResult = prompt( 'Input password', '' );
+    if(jbResult != 'admin'){
+      alert("wrong answer")
+       location.href="/cono/src/project/Intro.html"
+    }*/
+ </script>
+ <script type="text/javascript" src="admin.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Administor</a>  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="List.html">List</a>
+        </li>
+         <li class="nav-item" >
+            <a class="nav-link" href="editor.html">Add</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="/cono/src/project/Intro.html">LogOUt</a>
+         </li>    
+    </ul>
+  </div>
+  
+</nav>
+<br>
+<div id="admin_Title"><h1> Welcom. This is a page for Administor</h1></div> 
+<div class="container_box">
+  <div class="container_box_left">
+    <table class="table table-dark table-striped table-hover">
+      <thead>
+        <tr>
+          <th class="Number">No.</th>
+          <th style="text-align: center;">Text</th>
+          <th class="Date">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="t_box">
+          <td class="Number">1</td>
+          <td>Hello World</td>
+          <td class="Date">2020-09-25</td>
+        </tr>
+        <tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr><tr class="t_box">
+          <td class="Number"></td>
+          <td></td>
+          <td class="Date"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!-- 삭제버튼 번호-->
+      </tfoot>
+    </table>
+  </div>
+  
+  <div class="container_box_right">
+    <button type="button" class="btn btn-dark btn-block btn-size" onclick="go(0)">Add new menu</button>
+    <button type="button" class="btn btn-dark btn-block btn-size" onclick="go(1)">Add new porfolio</button>
+    <button type="button" class="btn btn-dark btn-block btn-size" onclick="go(2)">List of menu / porfolio<br>(modfy or delete)</button>
+    <button type="button" class="btn btn-dark btn-block btn-size" onclick="go(3)">LogOut</button>
+  </div>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,55 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+#big-box{
+    min-width: 1680px;
+    height: 850px;
+    margin: 10px;
+    float: left;
+}
+#box{
+    max-width: 89%;
+    width: 1450px;
+    float: left;
+}
+
+.container{
+    width: 100%;
+    box-shadow: 0px 1px 5px 1px gray;
+    background-color: green;
+}
+#box_making{
+    width: 100%;
+    float: left;
+    
+}
+#preview{
+    width: 100%;
+    height: 800px;
+    float: left;
+    margin: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("D:/인하대학교/study/Web_study/포트폴리오/img/menu.png");
+}
+#image-tool{
+    float: left;
+    width: 200px;
+    height: inherit;
+    border: 1px solid black;
+    box-shadow: -1px 1px 5px 0px gray;
+}
+#text_image_tool{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: -1px 0px 5px 0px gray;
+}
+#image-tool-box{
+    width: 100%;
+    height: 90%;
+    margin-top: 8px;
+    border: 1px dotted red;
+}
