@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="MyType.css">
+        <script type="text/javascript" src="MyType.js"></script>
+        <title>HelloWorld!</title>
+        <style type="text/css">
+            #blank_Top{
+                width: inherit;
+                height: 400px;
+            }
+            #blank_bottom{
+                width: inherit;
+                height: 500px;
+            }
+            #lamp_div{
+                width: 780px;
+                height: inherit;
+                float: left;
+            }
+            #lamp{
+                width: 600px;
+                float: left; 
+                margin: 0px 100px;
+            }
+            #Title_div{
+                width: 1000px;
+                height: inherit;
+                float: left;
+            }
+            #Title{
+                width: 600px;
+                margin: 160px 350px;    
+            }
+            #door_div{
+                width: 600px;
+                height: auto;
+                float: left;
+            }
+            #door{
+                width: 265px;
+                margin: 0px 300px;
+            }
+            #chair_div{
+                width: 600px;
+                height: auto;
+                float: left;
+            }
+            #chair{
+                width: 450px; 
+                margin: 30px 200px;
+            }
+            #Title2_div{
+                width: 600px;
+                height: auto;
+                float: left;
+            }
+            #Title2{
+                width: 200px;
+                margin: 210px 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box" class="box">
+            <div id="main_page">
+                <div id="blank_Top">
+                    <div id="lamp_div">
+                        <img id="lamp" src="img/lamp.png">
+                    </div>
+                    
+                    <div id="Title_div" >
+                        <img id="Title" src="img/title.png">
+                    </div>
+                </div>
+                <div id="blank_bottom" >
+
+                    <div id="door_div">
+                        <img id="door" src="img/Door.png" onclick="opening_door()"> 
+                    </div>
+
+                    <div id="chair_div" >
+                        <img id="chair" src="img/chair.png">
+                    </div>
+                    <div id="Title2_div" >
+                        <img id="Title2" src="img/title2.png">
+                    </div>                        
+                    
+                </div>
+            </div>
+        </div>
+       
+    </body>
+</html>
